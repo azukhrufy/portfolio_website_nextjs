@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend, DiSwift, DiPython, DiAndroid, DiGit,DiAngularSimple } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiSwift, DiPython, DiAndroid, DiGit ,DiAngularSimple, } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -11,6 +11,16 @@ const Technologies = () =>  (
 
     </SectionText>
     <List>
+    <ListItem>
+        <DiGit size="3rem"/>
+        <ListContainer>
+          <ListTitle>Git</ListTitle>
+          <ListParagraph>
+            Experience in develop <br />
+            multiple project using Git.
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
       <ListItem>
         <DiSwift size="3rem"/>
         <ListContainer>
@@ -26,8 +36,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front - End</ListTitle>
           <ListParagraph>
-            Experience in develop <br/>
-            React.js and React Native
+            Experience in develop Web <br/>
+            Application using multiple Front End Framework
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,16 +48,6 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience in develop <br/>
             Odoo using Python
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <DiAngularSimple size="3rem"/>
-        <ListContainer>
-          <ListTitle>Angular</ListTitle>
-          <ListParagraph>
-            Experience in develop <br/>
-            Smartfren Kiosk App Admin
           </ListParagraph>
         </ListContainer>
       </ListItem>
