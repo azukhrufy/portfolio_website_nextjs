@@ -1,18 +1,18 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+    title: 'Musfitatur App',
+    description: "MusfitaturApp is a mobile application that I developed using the react native framework, this application facilitates bookings about travel, hajj, umrah.",
+      image: '/images/musfiratur.png',
+      tags: ['React Native'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    title: 'digiSchool',
+    description:"digiSchool is a website-based application intended for al izhar schools, made with Nuxt JS, this application contains attendance, and eLearning for students.",
+    image: '/images/digischool.png',
+    tags: ['Nuxt Js', 'LoopBack 4', 'Node Js'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 1,
@@ -38,9 +38,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: 'Started my journey as Software Developer, joined Politeknik Negeri Bandung', },
+  { year: 2019, text: 'Started my Internship as Mobile Developer, Created Musfiratur App with using React Native Framework', },
+  { year: 2020, text: 'Started my Role as Frontend Developer, Created Digischool App with using Nuxt Js, Smartfren Kiosk web with using Angular Js', },
+  { year: 2021, text: 'Started my Role as Backend Developer, Involved in HRMS - Odoo Project with using Pyhton Language', },
 ];

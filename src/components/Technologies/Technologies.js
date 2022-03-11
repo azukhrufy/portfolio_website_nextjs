@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend, DiSwift, DiPython, DiAndroid, DiGit } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiSwift, DiPython, DiAndroid, DiGit,DiAngularSimple } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -38,6 +38,16 @@ const Technologies = () =>  (
           <ListParagraph>
             Experience in develop <br/>
             Odoo using Python
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiAngularSimple size="3rem"/>
+        <ListContainer>
+          <ListTitle>Angular</ListTitle>
+          <ListParagraph>
+            Experience in develop <br/>
+            Smartfren Kiosk App Admin
           </ListParagraph>
         </ListContainer>
       </ListItem>
