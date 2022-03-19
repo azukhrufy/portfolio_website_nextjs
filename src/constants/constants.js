@@ -1,5 +1,23 @@
 export const projects = [
   {
+    title: 'HRMS',
+    description: "HRMS is an ERP Application that I developed using Odoo framework, this application facilitates all in one solution for helps the HR on doing its Jobdesk. Plus this app is integration with Attendance Biometric Device",
+      image: '/images/hrms.png',
+      tags: ['Odoo', 'Pyhton', 'ERP'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 0,
+  },
+  {
+    title: 'HRIS',
+    description: "HRIS is an ERP Application that I developed using Odoo framework, this application is present for helps HR to view and manage the information about HR jobdesk. Plus this app is integration with Attendance Biometric Device",
+      image: '/images/hris.png',
+      tags: ['Odoo', 'Pyhton', 'ERP'],
+    source: 'https://google.com',
+    visit: 'https://google.com',
+    id: 0,
+  },
+  {
     title: 'Musfitatur App',
     description: "MusfitaturApp is a mobile application that I developed using the react native framework, this application facilitates bookings about travel, hajj, umrah.",
       image: '/images/musfiratur.png',
