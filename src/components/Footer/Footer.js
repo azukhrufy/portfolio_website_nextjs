@@ -10,23 +10,23 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:anandazukhruf@gmail.com">
+          <LinkItem href="mailto:anandazukhruf@gmail.com" target="_blank" rel="noopener noreferrer">
             anandazukhruf@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Mobile Developer, doing Multiple Role</Slogan>
+          <Slogan>Azukhrufy Portfolio 2022</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/azukhrufy">
+          <SocialIcons href="https://github.com/azukhrufy" target="_blank" rel="noopener noreferrer">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://gitlab.com/azukhrufy">
+          <SocialIcons href="https://gitlab.com/azukhrufy" target="_blank" rel="noopener noreferrer">
             <AiFillGitlab size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/azukhrufy/">
+          <SocialIcons href="https://www.linkedin.com/in/azukhrufy/" target="_blank" rel="noopener noreferrer">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>
