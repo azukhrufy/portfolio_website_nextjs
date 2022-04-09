@@ -83,6 +83,15 @@ export const personalProjects = [
     visit: 'https://github.com/azukhrufy/quizzler',
     id: 2,
   },
+  {
+    title: 'To Do App',
+    description: "To Do App is my personal project during my ios bootcamp with Robert Petras on udemy",
+      image: '/images/todoapp.png',
+      tags: ['Swift', 'Xcode','CoreData','SwiftUI'],
+    source: 'https://github.com/azukhrufy/iOS-Todo-App',
+    visit: 'https://github.com/azukhrufy/iOS-Todo-App',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
