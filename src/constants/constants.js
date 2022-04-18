@@ -15,7 +15,7 @@ export const projects = [
       tags: ['Odoo', 'Pyhton', 'ERP'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Musfitatur App',
@@ -24,7 +24,7 @@ export const projects = [
       tags: ['React Native'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 0,
+    id: 2,
   },
   {
     title: 'digiSchool',
@@ -33,7 +33,7 @@ export const projects = [
     tags: ['Nuxt Js', 'LoopBack 4', 'Node Js'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 1,
+    id: 3,
   },
   {
     title: 'eBos',
@@ -42,7 +42,7 @@ export const projects = [
       tags: ['Next Js', 'Redux Saga'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 2,
+    id: 4,
   },
   {
     title: 'Smartfren Kiosk Dashboard',
@@ -51,7 +51,7 @@ export const projects = [
     tags: ['Angular Js', 'Loopback 3', 'Node Js'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 3,
+    id: 5,
   },
 ];
 
@@ -64,6 +64,33 @@ export const personalProjects = [
     source: 'https://github.com/azukhrufy/react-hackernews',
     visit: 'https://hackernews.azukhrufy.vercel.app/',
     id: 0,
+  },
+  {
+    title: 'BMI Calc',
+    description: "BMI Calc is my personal project during my ios bootcamp with appbrewery on udemy",
+      image: '/images/bmicalc.png',
+      tags: ['Swift', 'Xcode','Cocoapods'],
+    source: 'https://github.com/azukhrufy/BMICalc',
+    visit: 'https://github.com/azukhrufy/BMICalc',
+    id: 1,
+  },
+  {
+    title: 'Quizzler',
+    description: "Quizzler is my personal project during my ios bootcamp with appbrewery on udemy",
+      image: '/images/quizzler.png',
+      tags: ['Swift', 'Xcode','Cocoapods'],
+    source: 'https://github.com/azukhrufy/quizzler',
+    visit: 'https://github.com/azukhrufy/quizzler',
+    id: 2,
+  },
+  {
+    title: 'To Do App',
+    description: "To Do App is my personal project during my ios bootcamp with Robert Petras on udemy",
+      image: '/images/todoapp.png',
+      tags: ['Swift', 'Xcode','CoreData','SwiftUI'],
+    source: 'https://github.com/azukhrufy/iOS-Todo-App',
+    visit: 'https://github.com/azukhrufy/iOS-Todo-App',
+    id: 3,
   },
 ];
 

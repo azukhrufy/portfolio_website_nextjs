@@ -15,7 +15,7 @@ const Hero = (props) => (
       Currently as a software engineer at Neural Technologies Indonesia, responsible to develop ERP System and Collaborates with all of element for implementing advance business solution.
       Experience in Mobile App development, Web Front End Development and leading an organization. Passionate to learn something new about technology.
       </SectionText>
-      <Button onClick={() => window.location='https://www.linkedin.com/in/azukhrufy/'}>Learn More</Button>
+      <Button onClick={() => window.open('https://www.linkedin.com/in/azukhrufy/','_blank')}>Learn More</Button>
     </LeftSection>
   </Section>
 );
