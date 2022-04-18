@@ -69,7 +69,13 @@ export const personalProjects = [
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey as Software Developer, joined Politeknik Negeri Bandung', },
+  { year: 2018, text: 'Funded Proposal for PKM-KC, with application HoTriv (Hotel with 360 view app)', },
+  { year: 2018, text: 'Become Head Of MPA HIMAKOM (College Student Legislative Institution', },
+  { year: 2018, text: 'Finalist of Kompetisi Mahasiswa Politeknik Nasional (KMIPN) e - Government nomination with Pojok Beasiswa WebApp', },
+  { year: 2019, text: 'Funded Proposal for Pekan Kreativitas Mahasiswa PKM-M, with Polban Scholarship Application Website.', },
   { year: 2019, text: 'Started my Internship as Mobile Developer, Created Musfiratur App with using React Native Framework', },
+  { year: 2020, text: 'Best Final Project for the Informatics Engineering Diploma at Politeknik Negeri Bandung.', },
   { year: 2020, text: 'Started my Role as Frontend Developer, Created Digischool App with using Nuxt Js, Smartfren Kiosk web with using Angular Js', },
   { year: 2021, text: 'Started my Role as Backend Developer, Involved in HRMS - Odoo Project with using Pyhton Language', },
+  { year: 2021, text: 'Started my Role as iOS Developer, Created Wohoo App with using Swift', },
 ];
