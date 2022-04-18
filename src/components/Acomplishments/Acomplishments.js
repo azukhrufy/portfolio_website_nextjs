@@ -4,10 +4,12 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 
 const data = [
+  { number: 2018, text: 'Funded Proposal PKM-KC', },
   { number: 2018, text: 'Head of MPA HIMAKOM', },
+  { number: 2018, text: 'KMIPN Finalist in Surabaya', },
   { number: 2019, text: 'Leader of Internship Group', },
-  { number: 2020, text: 'Best Final Project on POLBAN'},
-  { number: 20, text: 'Involved Projects', }
+  { number: 2019, text: 'Funded Proposal PKM-M', },
+  { number: 2020, text: 'Best Final Project on POLBAN'}
 ];
 
 const Acomplishments = () => (
