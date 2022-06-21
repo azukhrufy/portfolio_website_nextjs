@@ -92,6 +92,15 @@ export const personalProjects = [
     visit: 'https://github.com/azukhrufy/iOS-Todo-App',
     id: 3,
   },
+  {
+    title: 'Catalogue',
+    description: "Catalogue is a web app for showing product like fashion etc. Build in Next Js",
+      image: '/images/catalogue.png',
+      tags: ['React JS', 'Next JS',],
+    source: 'https://github.com/azukhrufy/catalogue',
+    visit: 'https://azukhrufycatalogue.vercel.app',
+    id: 4,
+  },
 ];
 
 export const TimeLineData = [
