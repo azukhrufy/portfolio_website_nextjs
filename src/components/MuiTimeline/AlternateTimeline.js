@@ -19,8 +19,8 @@ export default function AlternateTimeline() {
             There is my timeline so far as Software Engineer
         </SectionText>
         <Timeline position="alternate">
-            {TimeLineData.map((item) => 
-                <TimelineItem>
+            {TimeLineData.map((item, key) => 
+                <TimelineItem key={key}>
                     <TimelineSeparator>
                     <TimelineDot />
                     <TimelineConnector />
