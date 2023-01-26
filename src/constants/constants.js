@@ -112,6 +112,5 @@ export const TimeLineData = [
   { year: 2019, text: 'Started my Internship as Mobile Developer, Created Musfiratur App with using React Native Framework', },
   { year: 2020, text: 'Best Final Project for the Informatics Engineering Diploma at Politeknik Negeri Bandung.', },
   { year: 2020, text: 'Started my Role as Frontend Developer, Created Digischool App with using Nuxt Js, Smartfren Kiosk web with using Angular Js', },
-  { year: 2021, text: 'Started my Role as Backend Developer, Involved in HRMS - Odoo Project with using Pyhton Language', },
-  { year: 2021, text: 'Started my Role as iOS Developer, Created Wohoo App with using Swift', },
+  { year: 2021, text: 'Started my Role as Frontend Developer & Odoo Developer, Involved in HRMS - Odoo, Justclick and Qroi Project with using ReactJS, NextJS, and Odoo, until now.', },
 ];
