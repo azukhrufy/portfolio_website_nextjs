@@ -31,6 +31,10 @@ const Projects = () => (
               ))}
             </TagList>
           </div>
+          <UtilityList>
+            {visit ? (<ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">Visit</ExternalLinks>) : (<></>)}
+            {source ? (<ExternalLinks href={source} target="_blank" rel="noopener noreferrer">Source</ExternalLinks>) : (<></>)}
+          </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
@@ -60,8 +64,8 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">Visit</ExternalLinks>
-            <ExternalLinks href={source} target="_blank" rel="noopener noreferrer">Source</ExternalLinks>
+            {visit ? (<ExternalLinks href={visit} target="_blank" rel="noopener noreferrer">Visit</ExternalLinks>) : (<></>)}
+            {source ? (<ExternalLinks href={source} target="_blank" rel="noopener noreferrer">Source</ExternalLinks>) : (<></>)}
           </UtilityList>
         </BlogCard>
       ))}
