@@ -5,16 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next --openssl-legacy-provider start"
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=18.x"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
     "@mui/lab": "^5.0.0-alpha.84",
     "@mui/material": "^5.8.2",
-    "next": "10.2.3",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
+    "next": "14.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
     "styled-components": "^5.3.0",
     "styled-normalize": "^8.0.7"
