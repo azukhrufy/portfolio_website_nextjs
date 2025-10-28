@@ -17,7 +17,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Azukhrufy Portfolio 2022</Slogan>
+          <Slogan>Azukhrufy Portfolio 2025</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/azukhrufy" target="_blank" rel="noopener noreferrer">
