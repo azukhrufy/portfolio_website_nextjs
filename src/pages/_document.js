@@ -29,9 +29,12 @@ export default class MyDocument extends Document {
   }
   render() {
     return (
-      <Html lang='en-GB'>
+      <Html lang='en'>
         <Head>
+          <meta charSet="utf-8" />
           <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+          <link rel="icon" href="/favicon.ico" />
+          <meta name="theme-color" content="#000000" />
         </Head>
         <body>
           <Main />

@@ -61,6 +61,7 @@ const Header = () => (
         href="https://github.com/azukhrufy"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Visit Ananda Zukhruf's GitHub profile"
       >
         <AiFillGithub size="3rem" />
       </SocialIcons>
@@ -68,6 +69,7 @@ const Header = () => (
         href="https://gitlab.com/azukhrufy"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Visit Ananda Zukhruf's GitLab profile"
       >
         <AiFillGitlab size="3rem" />
       </SocialIcons>
@@ -75,6 +77,7 @@ const Header = () => (
         href="https://www.linkedin.com/in/azukhrufy/"
         target="_blank"
         rel="noopener noreferrer"
+        aria-label="Connect with Ananda Zukhruf on LinkedIn"
       >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
