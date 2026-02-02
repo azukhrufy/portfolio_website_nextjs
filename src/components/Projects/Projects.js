@@ -19,8 +19,7 @@ const Projects = () => (
           <CardInfo>
             {description}
           </CardInfo>
-          <br/>
-          <div>
+          <div style={{marginTop:'2rem'}}>
             <TitleContent>
               <HeaderThree size="3rem">Stack</HeaderThree>
             </TitleContent>
@@ -51,8 +50,7 @@ const Projects = () => (
           <CardInfo>
             {description}
           </CardInfo>
-          <br/>
-          <div>
+          <div style={{marginTop:'2rem'}}>
             <TitleContent>
               <HeaderThree size="3rem">Stack</HeaderThree>
             </TitleContent>

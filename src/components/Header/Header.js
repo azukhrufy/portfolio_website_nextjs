@@ -23,32 +23,38 @@ const Header = () => (
     <Div1>
       <Link
         href="/"
-        style={{
-          color: "white",
-          display: "flex",
-          alignItems: "center",
-          marginBottom: "20px",
-        }}
+        legacyBehavior
       >
-        <DiCssdeck size="3rem" /> <Span>Azukhrufy</Span>
+        <a
+          style={{
+            color: "white",
+            display: "flex",
+            alignItems: "center",
+            marginBottom: "20px",
+          }}
+        >
+          <DiCssdeck size="3rem" /> <Span>Azukhrufy</Span>
+        </a>
       </Link>
     </Div1>
     <Div2>
-      <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#tech">
-          <NavLink>Technologies</NavLink>
-        </Link>
-      </li>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
-        </Link>
-      </li>
+      <ul>
+        <li>
+          <Link href="#projects" legacyBehavior>
+            <NavLink>Projects</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#tech" legacyBehavior>
+            <NavLink>Technologies</NavLink>
+          </Link>
+        </li>
+        <li>
+          <Link href="#about" legacyBehavior>
+            <NavLink>About</NavLink>
+          </Link>
+        </li>
+      </ul>
     </Div2>
     <Div3>
       <SocialIcons

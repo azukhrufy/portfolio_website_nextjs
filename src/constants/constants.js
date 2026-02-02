@@ -88,6 +88,16 @@ export const projects = [
 
 export const personalProjects = [
   {
+    title: "Dhelia Car Wash (Unofficial)",
+    description:
+      "A demo landing page specifically designed for a car wash company in Bandung & Cimahi, Dhelia Car Wash",
+    image: "/images/dhelia-carwash.png",
+    tags: ["NextJS", "TailwindCSS"],
+    source: "https://github.com/azukhrufy/Dhelia-CarWash",
+    visit: "https://demo-dhelia-car-wash.vercel.app/",
+    id: 0,
+  },
+  {
     title: "Hackernews Clone",
     description:
       "Hackernews Clone is my personal project to implemented the Hackernews API in my React JS Project",
